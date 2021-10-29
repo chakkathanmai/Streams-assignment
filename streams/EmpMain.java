@@ -8,6 +8,11 @@ import java.util.List;
 import java.util.stream.Stream;
 import java.util.Scanner;
 
+/**
+ * @author ThanmaiChakka
+ *
+ */
+
 //implementing comparator
 class NameSort implements Comparator<Employee>{
 	@Override
@@ -17,7 +22,6 @@ class NameSort implements Comparator<Employee>{
 	}
 	
 }
-
 public class EmpMain {
 
 	public static void main(String[] args) {
